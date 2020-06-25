@@ -5,7 +5,8 @@ body {
 }
 /*header*/
 #header-nav{
-	background-color: black;
+background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	padding-bottom: 0px;
 	
 }
@@ -23,18 +24,23 @@ body {
 }
 .navbar-toggler{
 	padding: 0px;
-	width: 1.5em;
-	height: 1.5em;
+	width: 17.5px;
+	height: 17.5px;
 
 }
 
 .navbar-toggler-icon{
-	background-color: black;
+background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	border:1px solid white;
 	border-radius: 4px;
 }
 .navbar-toggler-icon:hover{
 	background-color: #222;
+}
+svg{
+	padding-bottom: 0px;
+	color: white;
 }
 #nav-list li a{
 	text-align: center;
@@ -64,11 +70,13 @@ h4{
 	padding-bottom: 10px;
 }
 #S1,#S2,#S3{
-	background-color: black;
+background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-top: 20px;
 	border-radius: 10px;
+	box-shadow: 10px 10px 10px #7f8c8d;
 }
 a,a:hover{
 	color: white;
