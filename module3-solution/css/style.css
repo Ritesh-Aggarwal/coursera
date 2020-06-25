@@ -102,11 +102,14 @@ a,a:hover{
 #S1 a,#S2 a,#S3 a{
 	padding: 0px;
 }
-@media(max-width: 518px){
+@media(max-width: 5px){
 	#S1,#S2,#S3{
 		height: 300px;
 		overflow: auto;
 	}
+}
+section::first-letter{
+	font-size: 200%;
 }
 
 
