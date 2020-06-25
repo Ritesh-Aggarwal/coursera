@@ -1,5 +1,7 @@
 body {
-	background-color: #eee;
+	/*background-color: #eee;*/
+background-color: #d9d9d9;
+background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 	font-family: "Oxygen",sans-serif;
 	color: white;
 }
@@ -24,23 +26,32 @@ background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 .navbar-toggler{
 	padding: 0px;
-	width: 17.5px;
-	height: 17.5px;
-
 }
 
 .navbar-toggler-icon{
-background-color: #2d3436;
-background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-	border:1px solid white;
-	border-radius: 4px;
+	background-color: transparent;
+	border-radius: 5px;
+	height: 26px;
+}
+@media(max-width: 991px){
+	#nav-list li a{
+		border-top: 1px solid white;
+	}
+}
+@media(min-width: 990px){
+	#nav-list li a:hover{
+	background-color: #222;
+	border-radius: 5px;
+}
 }
 .navbar-toggler-icon:hover{
-	background-color: #222;
+	background-color: #222;border-radius: 5px;
 }
 svg{
 	padding-bottom: 0px;
+	margin-bottom: 0px;
 	color: white;
+	vertical-align: center;
 }
 #nav-list li a{
 	text-align: center;
@@ -48,10 +59,8 @@ svg{
 	margin: auto;
 	padding-right: 20px;
 	margin-bottom: 0px;
-
+	
 }
-
-
 #nav-list li a:hover{
 	background-color: #222;
 }
@@ -80,6 +89,11 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 a,a:hover{
 	color: white;
+	
 }
+#S1 a,#S2 a,#S3 a{
+	padding: 0px;
+}
+
 
 
