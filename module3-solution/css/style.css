@@ -55,7 +55,9 @@ body {
 h2{
 	color: black;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 20px;
+	margin-top:50px;
+	margin-bottom: 20px;
 }
 h4{
 	text-align: center;
