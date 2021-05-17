@@ -1,4 +1,4 @@
-# Coursera web develepoment course
+# Coursera web development course
 hello world : https://ritesh-aggarwal.github.io/coursera/site/
 
 module -2 solution deployment: https://ritesh-aggarwal.github.io/coursera/module2-solution/
